@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "../../styles/HeaderStyle.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo/logo.png";
+import Logos from "../../assets/logo/logoup.jpg";
 
 const Header = () => {
   const [nav, setNav] = useState(false);

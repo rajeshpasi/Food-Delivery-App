@@ -107,15 +107,15 @@
 }
 
 .btn-red {
-  color: var(--white);
-  background: var(--light-red);
-  border-color: var(--light-red);
+  color: var(--white)!important;
+  background: var(--light-red) !important;
+  border-color: var(--light-red) !important;
 
 }
 
-.btn_red:hover,
-.btn_red:focus {
-  color: var(--light-red);
-  background: transparent;
-  border-color: var(--light-red);
+.btn-red:hover,
+.btn-red:focus {
+  color: var(--light-red) !important;
+  background: transparent !important;
+  border-color: var(--light-red) !important;
 }

@@ -1,28 +1,28 @@
 /* Home Hero 1.0 */
 .hero_section {
-  position: relative;
-  background: url("../assets/hero/hero-1.jpg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding-top: 170px;
-  padding-bottom: 90px;
+  position: relative !important;
+  background: url("../assets/hero/hero-1.jpg") no-repeat center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  padding-top: 170px !important;
+  padding-bottom: 90px !important;
 }
 .hero_section .price_badge {
   background: url("../assets/hero/price-badge-yellow.png") no-repeat center
-    center;
-  background-size: cover;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  width: 180px;
-  height: 176px;
-  text-align: center;
+    center !important;
+  background-size: cover !important;
+  position: absolute !important;
+  top: -20px !important;
+  right: 5px !important;
+  width: 180px !important;
+  height: 176px !important;
+  text-align: center !important;
 }
 .hero_section .badge_text {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 100% !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
 }
 .hero_section .badge_text .h4_xs {
   font-size: 1.875rem;
@@ -35,11 +35,11 @@
   line-height: 1;
 }
 .hero_section .hero_text h1 {
-  font-family: var(--lilita-font);
-  font-size: 7rem;
-  line-height: 1;
-  margin-bottom: 15px;
-  letter-spacing: 3px;
+  font-family: var(--lilita-font) !important;
+  font-size: 7rem !important;
+  line-height: 1 !important;
+  margin-bottom: 15px !important;
+  letter-spacing: 3px !important;
 }
 .hero_section .hero_text h2 {
   font-family: var(--lilita-font);
@@ -70,7 +70,7 @@
 }
 .about_wrapper {
   background: var(--yellow);
-  padding-top: 70px;
+  padding-top: 70px ;
   padding-bottom: 30px;
 }
 .about_box .about_icon img {
@@ -96,8 +96,8 @@
   transition: all 500ms ease-in-out;
 }
 .menu_section h2 {
-  font-size: 3.5rem;
-  color: var(--light-red);
+  font-size: 3.5rem !important;
+  color: var(--light-red) !important;
 }
 .menu_section .para {
   color: var(--grey);
@@ -154,11 +154,11 @@
 }
 
 .menu_section .card:hover .card-img-top {
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
 }
 .menu_section .card:hover .add_to_card a {
-  transform: translateY(0px);
-  opacity: 1;
+  transform: translateY(0px) !important;
+  opacity: 1 !important;
 }
 .menu_section .ads_box {
   text-align: right;
@@ -293,10 +293,10 @@
 
 /* Home Contact 8.0 */
 .contact_section {
-  background: url("../assets/footer/banner-1.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  background: url("../assets/footer/banner-1.jpg") no-repeat center center !important;
+  background-size: cover !important;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
 }
 .contact_section h4 {
   font-size: 2.375rem;
@@ -367,16 +367,16 @@ footer .copy_right ul li:last-child:after {
 
 /* Scroll Top */
 .scroll_top {
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  z-index: 99;
+  position: fixed !important;
+  right: 30px !important;
+  bottom: 30px !important;
+  z-index: 99 !important;
   cursor: pointer;
   width: 2.7rem;
   height: 2.7rem;
   line-height: 3rem;
   text-align: center;
-  background: var(--light-red);
+  background: var(--light-red) !important;
   border-radius: 10%;
 }
 .scroll_top i {
@@ -424,12 +424,12 @@ footer .copy_right ul li:last-child:after {
 @media (max-width: 767px) {
   /* Home Hero 1.0 */
   .hero_section .hero_text h1 {
-    font-size: 5.5rem;
+    font-size: 5.5rem !important;
   }
 
   /* Home Menu 3.0 */
   .menu_section .para {
-    padding: 10px 0px;
+    padding: 10px 0px !important;
   }
 
   /* Home Shop 6.0 */
